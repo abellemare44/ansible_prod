@@ -4,5 +4,5 @@
   tasks:
 
   - name: update repository index
-    ansible.builtin.apt:
+    ansible.builtin.package:
       update_cache: yes
